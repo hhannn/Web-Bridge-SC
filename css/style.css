@@ -1,0 +1,322 @@
+@font-face {
+    font-family: 'Samsung Sharp Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Samsung Sharp Sans Regular'), url('font/samsungsharpsans.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Samsung Sharp Sans Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Samsung Sharp Sans Medium'), url('font/samsungsharpsans-medium.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Samsung Sharp Sans Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Samsung Sharp Sans Bold'), url('font/samsungsharpsans-bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SamsungOne-400';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SamsungOne-400'), url('font/SamsungOne-400.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SamsungOne-700';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SamsungOne-700'), url('font/SamsungOne-700.woff') format('woff');
+}
+
+body {
+    padding-bottom: 124px;
+}
+
+.icon-nav {
+    height: 120%;
+    width: auto;
+}
+
+li {
+    z-index: 1;
+}
+
+.list-group {
+    list-style-type: none;
+    font-family: 'SamsungOne-400';
+    font-size: 15px;
+}
+
+.navbar-brand {
+    font-family: 'Samsung Sharp Sans Bold';
+    font-size: 16px;
+    color: black;
+}
+
+.nav-link {
+    font-family: 'SamsungOne-400';
+    font-size: 11px;
+}
+
+.mt-3a {
+    margin-top: 0.75rem;
+}
+
+.mt-2a {
+    margin-top: 0.75rem;
+}
+
+.navbar {
+    background-color: #f7f7f7;
+}
+
+#lifestyle-img {
+    height: 650px;
+    width: auto;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#phone-img {
+    height: 800px;
+    width: auto;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.mt-n6 {
+    margin-top: 6rem;
+}
+
+#tentang-sc {
+    white-space: pre-line;
+}
+
+.mt-n-1 {
+    margin-top: -1rem;
+}
+
+.ms-n-1 {
+    margin-left: -1.25rem;
+}
+
+.tnc {
+    font-size: 11px;
+    font-family: 'SamsungOne-700';
+    letter-spacing: 2px;
+    text-decoration-line: underline;
+    font-weight: 700;
+}
+
+.steps-icon {
+    z-index: 9;
+}
+
+.steps {
+    z-index: 1;
+}
+
+.steps-number {
+    position: absolute;
+    font-family: 'Samsung Sharp Sans';
+    font-size: 64px;
+    color: #EEEEEE;
+    z-index: 0;
+    text-align: center;
+    width: 200px;
+}
+
+.steps-desc {
+    z-index: 1;
+}
+
+.mb-n4 {
+    margin-bottom: 2.5rem;
+}
+
+.mt-n4 {
+    margin-top: 2.5rem;
+}
+
+#samsung-care-main {
+    font-family: 'Samsung Sharp Sans';
+    font-size: 46px;
+    margin: 0px;
+    line-height: 60px;
+    color: black;
+}
+
+#samsung-care-desc {
+    font-family: 'SamsungOne-400';
+    font-size: 20px;
+    color: black;
+}
+
+.small-title {
+    font-family: 'Samsung Sharp Sans';
+    font-size: 30px;
+    margin: 0px;
+    line-height: 40px;
+    color: black;
+    text-align: center;
+}
+
+#img-how-to {
+    width: auto;
+    height: 470px;
+    object-fit: contain;
+}
+
+.btn-primary {
+    font-size: 11px;
+    font-family: "SamsungOne-700";
+    width: 168px;
+    height: 48px;
+    border-radius: 23px;
+    background-color: #1428A0;
+}
+
+.btn-primary:hover {
+    background-color: #0B175C;
+}
+
+#icon-repair {
+    height: 114px;
+    width: auto;
+    object-fit: contain;
+}
+
+#icon-change {
+    height: 114px;
+    width: auto;
+    object-fit: contain;
+}
+
+#icon-delivery {
+    margin-top: 9px;
+    margin-bottom: 9px;
+    height: 96px;
+    width: auto;
+    object-fit: contain;
+}
+
+.layanan-title {
+    font-family: "Samsung Sharp Sans";
+    font-size: 18px;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.layanan-desc {
+    font-family: "SamsungOne-400";
+    font-size: 15px;
+    text-align: center;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.layanan-tnc {
+    font-family: "SamsungOne-400";
+    font-size: 10px;
+    text-align: center;
+    margin-top: 1rem;
+    color: #636363;
+}
+
+a {
+    color: #1428A0;
+}
+
+a:hover {
+    color: #0B175C;
+}
+
+.vert {
+    background-image: linear-gradient(#000, #000);
+    background-size: 2px 85%;
+    background-repeat: no-repeat;
+    background-position: 50px center;
+    z-index: 0;
+}
+
+.whitespace{
+    width: 54px;
+    height: 54px;
+    min-width: 54px;
+    display: inline-block;
+    background-image: linear-gradient(#000, #000);
+    background-size: 50% 2px;
+    background-repeat: no-repeat;
+    background-position: center right;
+    z-index: 0;
+}
+
+/* For desktop: */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
