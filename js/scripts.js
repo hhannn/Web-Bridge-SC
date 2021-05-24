@@ -1,1 +1,1 @@
-// Empty JS for your own code to be here
+var scroll = new SmoothScroll('a[href*="#"]');

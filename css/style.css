@@ -46,10 +46,10 @@ body {
 
 li {
     z-index: 1;
+    list-style-type: none;
 }
 
 .list-group {
-    list-style-type: none;
     font-family: 'SamsungOne-400';
     font-size: 15px;
 }
@@ -58,11 +58,17 @@ li {
     font-family: 'Samsung Sharp Sans Bold';
     font-size: 16px;
     color: black;
+    margin-left: 24px;
 }
 
 .nav-link {
     font-family: 'SamsungOne-400';
     font-size: 11px;
+}
+
+.coba-nav {
+    background-color: black !important;
+    border : 0;
 }
 
 .mt-3a {
@@ -78,10 +84,10 @@ li {
 }
 
 #lifestyle-img {
-    height: 650px;
+    min-height: 650px;
+    max-height: 650px;
     width: auto;
-    object-fit: cover;
-    overflow: hidden;
+    object-fit: contain;
 }
 
 #phone-img {
@@ -122,6 +128,8 @@ li {
 
 .steps-icon {
     z-index: 9;
+    max-height: 54px;
+    width: auto;
 }
 
 .steps {
@@ -136,11 +144,13 @@ li {
     z-index: 0;
     text-align: center;
     width: 200px;
+    margin-top: -1rem;
 }
 
 .steps-desc {
     z-index: 1;
 }
+
 
 .mb-n4 {
     margin-bottom: 2.5rem;
@@ -150,27 +160,32 @@ li {
     margin-top: 2.5rem;
 }
 
-#samsung-care-main {
-    font-family: 'Samsung Sharp Sans';
-    font-size: 46px;
-    margin: 0px;
-    line-height: 60px;
-    color: black;
-}
-
 #samsung-care-desc {
     font-family: 'SamsungOne-400';
     font-size: 20px;
     color: black;
 }
 
-.small-title {
+.h1 {
     font-family: 'Samsung Sharp Sans';
-    font-size: 30px;
     margin: 0px;
-    line-height: 40px;
+    color: black;
+}
+
+.h2 {
+    font-family: 'Samsung Sharp Sans';
+    margin: 0px;
     color: black;
     text-align: center;
+}
+
+.h5 {
+    font-family: 'Samsung Sharp Sans';
+    margin: 0px;
+    color: black;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 #img-how-to {
@@ -186,6 +201,7 @@ li {
     height: 48px;
     border-radius: 23px;
     background-color: #1428A0;
+    border:0 ;
 }
 
 .btn-primary:hover {
@@ -210,14 +226,6 @@ li {
     height: 96px;
     width: auto;
     object-fit: contain;
-}
-
-.layanan-title {
-    font-family: "Samsung Sharp Sans";
-    font-size: 18px;
-    text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 1.5rem;
 }
 
 .layanan-desc {
@@ -246,9 +254,9 @@ a:hover {
 
 .vert {
     background-image: linear-gradient(#000, #000);
-    background-size: 2px 85%;
+    background-size: 2px 82%;
     background-repeat: no-repeat;
-    background-position: 50px center;
+    background-position: 50px top;
     z-index: 0;
 }
 
@@ -257,11 +265,10 @@ a:hover {
     height: 54px;
     min-width: 54px;
     display: inline-block;
-    background-image: linear-gradient(#000, #000);
-    background-size: 50% 2px;
-    background-repeat: no-repeat;
-    background-position: center right;
-    z-index: 0;
+}
+
+#lifestyle-img-2 {
+    display: none;
 }
 
 /* For desktop: */
@@ -318,5 +325,117 @@ a:hover {
     /* For mobile phones: */
     [class*="col-"] {
         width: 100%;
+    }
+
+    .section-about {
+        margin-top: 0 !important;
+    }
+
+    #lifestyle-img {
+        width: 100% !important;
+    }
+
+    .lifestyle-img {
+        padding-left: -2rem;
+    }
+    
+    .navbar-header {
+        width: 100%;
+    }
+
+    
+    .navbar-nav {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    #samsung-care-main {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    #samsung-care-desc {
+        font-size: 14px;
+
+    }
+
+    .small-title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .steps-desc {
+        font-size: 12px;
+    }
+    
+    .tnc {
+        font-size: 10px;
+    }
+
+    #phone-img {
+        display: none;
+    }
+
+    #section-about {
+        margin-top: 0 !important;
+        scroll-margin-top: -82.5px;
+    }
+
+    #section-coverage {
+        margin-top: 0;
+        scroll-margin-top: -82.5px;
+    }
+
+    #section-activation {
+        margin-top: 0;
+        scroll-margin-top: -82.5px;
+    }
+
+    .scroll-container {
+        scroll-margin-top: 82.5px;
+    }
+
+    .nav-link {
+        font-size: 10px;
+    }
+
+    .nav-icon {
+        width: 20px;
+        height: auto;
+    }
+
+    .navbar-brand {
+        margin-left: 4px;
+    }
+
+    .navbar-header {
+        width: 100%;
+    }
+
+    .navbar-nav {
+        width: 100%;
+    }
+
+    #tentang-sc {
+        padding-left: 32px !important;
+        
+    }
+
+    .section-activation-row {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+                    
+    }
+
+    .navbar {
+        box-shadow: 0 10px 8px 2px rgba(0, 0, 0, 0.16);
     }
 }
