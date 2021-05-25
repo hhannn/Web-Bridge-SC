@@ -1,3 +1,11 @@
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 @font-face {
     font-family: 'Samsung Sharp Sans Regular';
     font-style: normal;
@@ -85,8 +93,7 @@ li {
 
 #lifestyle-img {
     min-height: 650px;
-    max-height: 650px;
-    width: auto;
+    width: 100%;
     object-fit: contain;
 }
 
@@ -119,7 +126,7 @@ li {
 }
 
 .tnc {
-    font-size: 11px;
+    font-size: 10px;
     font-family: 'SamsungOne-700';
     letter-spacing: 2px;
     text-decoration-line: underline;
@@ -337,6 +344,8 @@ a:hover {
 
     .lifestyle-img {
         padding-left: -2rem;
+        height: auto !important;
+        
     }
     
     .navbar-header {
@@ -375,10 +384,6 @@ a:hover {
     .steps-desc {
         font-size: 12px;
     }
-    
-    .tnc {
-        font-size: 10px;
-    }
 
     #phone-img {
         display: none;
@@ -387,6 +392,10 @@ a:hover {
     #section-about {
         margin-top: 0 !important;
         scroll-margin-top: -82.5px;
+    }
+
+    .lifestyle-img {
+        height: 50% !important;
     }
 
     #section-coverage {
