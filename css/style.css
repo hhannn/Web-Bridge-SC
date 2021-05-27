@@ -98,10 +98,14 @@ li {
     object-fit: contain;
 }
 
+.phone-img {
+    background: url("../assets/image\ -\ phone@2x.png") no-repeat 30% 70%;
+    background-size: cover;
+}
 
 #phone-img {
-    height: 100%;
-    width: auto;
+    max-height: 100%;
+    max-width: 100%;
     object-fit: cover;
     overflow: hidden;
 }
@@ -274,10 +278,6 @@ a:hover {
     height: 54px;
     min-width: 54px;
     display: inline-block;
-}
-
-#lifestyle-img-2 {
-    display: none;
 }
 
 /* For desktop: */
