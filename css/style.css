@@ -93,13 +93,14 @@ li {
 }
 
 #lifestyle-img {
-    min-height: 650px;
+    height: auto;
     width: 100%;
     object-fit: contain;
 }
 
+
 #phone-img {
-    height: 800px;
+    height: 100%;
     width: auto;
     object-fit: cover;
     overflow: hidden;
@@ -175,13 +176,13 @@ li {
 }
 
 .h1 {
-    font-family: 'Samsung Sharp Sans';
+    font-family: 'Samsung Sharp Sans Bold';
     margin: 0px;
     color: black;
 }
 
 .h2 {
-    font-family: 'Samsung Sharp Sans';
+    font-family: 'Samsung Sharp Sans Bold';
     margin: 0px;
     color: black;
     text-align: center;
@@ -345,6 +346,7 @@ a:hover {
 
     .lifestyle-img {
         padding-left: -2rem;
+        padding-top: 48px;
         height: auto !important;
         
     }
@@ -358,6 +360,13 @@ a:hover {
         width: 100%;
     }
 
+    .vert {
+        background-image: linear-gradient(#000, #000);
+        background-size: 2px 80%;
+        background-repeat: no-repeat;
+        background-position: 50px top;
+        z-index: 0;
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -395,9 +404,6 @@ a:hover {
         scroll-margin-top: -82.5px;
     }
 
-    .lifestyle-img {
-        height: 50% !important;
-    }
 
     #section-coverage {
         margin-top: 0;
@@ -448,4 +454,24 @@ a:hover {
     .navbar {
         box-shadow: 0 10px 8px 2px rgba(0, 0, 0, 0.16);
     }
+
+    .vert {
+        background-image: linear-gradient(#000, #000);
+        background-size: 2px 81%;
+        background-repeat: no-repeat;
+        background-position: 50px top;
+        z-index: 0;
+    }
+}
+
+@media only screen and (max-width: 367px) {
+
+    .vert {
+        background-image: linear-gradient(#000, #000);
+        background-size: 2px 75%;
+        background-repeat: no-repeat;
+        background-position: 50px top;
+        z-index: 0;
+    }
+
 }
